@@ -1,0 +1,39 @@
+
+.form {
+    flex-basis: 100%;
+  }
+  
+  .input{
+    display: block;
+    width: 94%;
+    margin: 10px auto 0;
+    border: none;
+    padding: 10px;
+    border-bottom: 5px solid $color-main;
+  }
+  
+  .hidden {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+  }
+  
+  @media (min-width: $size-break) {
+
+    .container {
+      max-width: 1400px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .centered {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+}
